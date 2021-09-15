@@ -1,0 +1,88 @@
+write a program eligible to vote
+Begin
+    DECLARE age
+    if(age<=18)then
+         Display "Eligible to vote"
+    Else
+         Display "Not Eligible to vote"
+    EndIF
+END
+
+Write a program  to even or odd number
+
+BEGIN
+   Initialize num to 0
+   PROMPT "Enter the number" And STORE IN num
+   IF(num>0) THEN
+            DISPLAY "Positive Number"
+   ELSE
+            DISPLAY "Negative Number"
+   ENDIF
+END
+
+Write a program for calculating Interest
+
+BEGIN 
+     INITIALIZE Principalamount=5000, Rate=15, Time=1
+     SimpleInterest=(Prinicipalamount*Rate*Time)/100
+     Display "Simple Interest is: "SimpleInterest"
+END
+
+Write a program to check whether the number is divisible by 2,3 and 5
+
+BEGIN
+    PROMPT "Enter the number" And STORE IN num
+    IF(num%2==0 && num%3==0&&num%5==0)
+         DISPLAY "Divisible"
+    ELSE 
+         DISPLAY "Not Divisible"
+    ENDIF
+END
+
+Write a program to votes<18 and greater than>60
+BEGIN
+     PROMPT "Enter the number" And STORE IN num
+     IF(age<18)
+       DISPLAY"Not Eligible" 
+     Else(age>60)
+       DISPLAY" Senior Citizen"
+     ELSEIF(age>=18&&age<=60)
+      DISPLAY " ELigible to vote"
+END
+
+
+write a program to print 1to 5
+BEGIN
+    PROMPT "Enter the number" And STORE IN n,n=1
+      while(n<6)do
+        DISPLAY"n"
+        n=n+1
+      end while
+END  
+
+Write a program for loop, even and odd.
+BEGIN
+   for(n=1to10)
+   IF(n%2==0)
+   DISPLAY "Even"
+   ELSE
+   DISPLAY "ODD"
+END
+
+Write a program for prime, in loop of array.
+BEGIN
+     DECLARE numbers[4] AS INTEGER ARRAY
+     FOR index=0 To 4
+            ACCEPT numbers[index]
+     END FOR
+     FOR index=0 TO 4
+
+   IF((numbers[index]%1==0)&&(numbers[index]%numbers[index]==0)THEN
+           DISPLAY numbers[index] “is a prime number”
+               END IF
+           END FOR
+END
+
+
+         
+      
